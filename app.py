@@ -135,10 +135,6 @@ if page == "🏠 Project Info":
     })
     st.table(tasks.set_index("Task"))
 
-    st.subheader("Dark and light theme")
-    st.write("Click the ⋮ menu at the top right, then **Settings**, then choose **Theme** "
-             "(Light, Dark, or Use system setting).")
-
 
 # ============================================================
 # PAGE 2: DATASET (filters, summary cards, download)
