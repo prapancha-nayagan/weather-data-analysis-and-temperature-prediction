@@ -1,0 +1,7 @@
+{
+  "name": "weather-presentation",
+  "version": "1.0.0",
+  "description": "Builds the Weather Data Analysis presentation",
+  "scripts": { "build": "node build_deck.js" },
+  "dependencies": { "pptxgenjs": "^3.12.0", "sharp": "^0.33.0" }
+}
